@@ -1,7 +1,6 @@
 // ignore_for_file: avoid_unnecessary_containers, unused_label, no_logic_in_create_state, unused_element, unused_local_variable, dead_code, prefer_const_constructors, non_constant_identifier_names, prefer_equal_for_default_values, sized_box_for_whitespace, prefer_typing_uninitialized_variables, deprecated_member_use, unnecessary_new
 
 import 'dart:async';
-import 'dart:html';
 import 'package:flutter/material.dart';
 
 // import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -101,37 +100,6 @@ class AlreadyFind extends StatefulWidget {
 class _AlreadyFindState extends State<AlreadyFind> {
   @override
   Widget build(BuildContext context) {
-    return Image.asset('assets/images/Group7.png');
-  }
-}
-
-class Login extends StatefulWidget {
-  Login({Key? key}) : super(key: key);
-
-  @override
-  _LoginState createState() => _LoginState();
-}
-
-class _LoginState extends State<Login> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-        ),
-      ),
-    );
-  }
-}
-
-class LoginText extends StatelessWidget {
-  final String text;
-  // ignore: use_key_in_widget_constructors
-  const LoginText(this.text);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
+    return Image.asset('assets/images/Group4.png');
   }
 }

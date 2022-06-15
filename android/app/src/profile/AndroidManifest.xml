@@ -1,7 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tu_lost_and_found">
-    <!-- Flutter needs it to communicate with the running application
-         to allow setting breakpoints, to provide hot reload, etc.
-    -->
+    xmls:tools="http://schemas.android.com/tools"
+    package="com.nannapas.tu_lost_and_found">
+    
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
